@@ -15,3 +15,9 @@ If you rarely need to access a stopped container, you can make it a habit to add
 If you just want to remove a single container, you can do
 
 docker rm mymet2
+
+
+Docker-compose -f common.yml -f kafka_cluster.yml up
+
+Docker-compose -f common.yml -f init_kafka.yml up
+
